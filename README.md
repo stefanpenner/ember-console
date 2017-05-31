@@ -1,6 +1,7 @@
 # ember-console
 
 [![Build Status](https://travis-ci.org/stefanpenner/ember-console.svg?branch=master)](https://travis-ci.org/stefanpenner/ember-console)
+[![Build status](https://ci.appveyor.com/api/projects/status/y315p6t4siiyicu6?svg=true)](https://ci.appveyor.com/project/embercli/ember-console)
 
 get a console (REPL) to you fastboot capable ember-app
 
