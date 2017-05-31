@@ -1,6 +1,6 @@
 {
   "name": "ember-console",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -26,6 +26,7 @@
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
     "ember-cli": "2.13.1",
+    "ember-cli-babel": "^6.1.0",
     "ember-cli-dependency-checker": "^1.3.0",
     "ember-cli-eslint": "^3.0.0",
     "ember-cli-fastboot": "1.0.0-rc.1",
