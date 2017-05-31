@@ -4,6 +4,7 @@ get a console (REPL) to you fastboot capable ember-app
 
 *WARNING: still experimental, but ideas/help is wanted!*
 
+[![asciicast](https://asciinema.org/a/4ustg8rdcbc1y38x82b848vt8.png)](https://asciinema.org/a/4ustg8rdcbc1y38x82b848vt8)
 
 # Installation
 
