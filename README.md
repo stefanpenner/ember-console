@@ -36,6 +36,7 @@ Available commands:
   * `reload()` reloads the app, if a new bulid has occured this can be used to reload new code.
   * `visit(path)` the fastboot `visit` helper, allowing you to manually navigate your app
   * `instance` the fastboot instance
+  * `sandbox` the sandboxed global: for example `Object.keys(sandbox.require.entries)` will give you all the modules your app uses
 
 # Development
 
