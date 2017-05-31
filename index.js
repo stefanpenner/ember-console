@@ -2,5 +2,12 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-repl'
+  name: 'ember-console',
+  includedCommands() {
+    return {
+      console: require('./lib/commands/console')
+    };
+  }
 };
+
+
