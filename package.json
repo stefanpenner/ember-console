@@ -18,6 +18,7 @@
     "test": "ember try:each"
   },
   "dependencies": {
+    "await-outside": "^2.1.2",
     "fastboot": "^1.0.0-rc.6",
     "semver": "^5.3.0",
     "silent-error": "^1.1.0"
