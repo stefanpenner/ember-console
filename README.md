@@ -28,7 +28,7 @@ npm install ember-console
 2. build your app `ember build`
 3. run `ember console` and your app in `dist/` is started in fastboot, and a repl to it is opened.
 
-Available commands:
+Available repl commands:
 
 * `.help` for repl specific commands
 * `app`
@@ -40,6 +40,18 @@ Available commands:
   * `visit(path)` the fastboot `visit` helper, allowing you to manually navigate your app
   * `instance` the fastboot instance
   * `sandbox` the sandboxed global: for example `Object.keys(sandbox.require.entries)` will give you all the modules your app uses
+
+
+** Bonus **
+
+It is also possible to connect the console to a pre-built application (as long as it was built with fastboot)
+
+```sh
+ember build --output-path my-other-dist`
+ember console --output-path my-pther-dist
+```
+
+[![asciicast](https://asciinema.org/a/874kex0jwo7xvuy62vqbzav13.png)](https://asciinema.org/a/874kex0jwo7xvuy62vqbzav13)
 
 # Development
 
